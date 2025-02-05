@@ -68,7 +68,7 @@ anisU.setregion(3, vector(0,0,1))
 //----------------------------------------------------------
 
 m = Uniform(0,0.1,1)
-saveas(m, "vortez")
+saveas(m, "FerroZ")
 
 TableAdd(m_full)
 TableAdd(B_ext)

@@ -69,7 +69,7 @@ anisU.setregion(3, vector(0,0,1))
 //----------------------------------------------------------
 
 m = Uniform(1,0.1,0)
-saveas(m, "vortex")
+saveas(m, "FerroX")
 
 TableAdd(m_full)
 TableAdd(B_ext)

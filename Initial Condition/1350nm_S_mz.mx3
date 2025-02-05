@@ -75,10 +75,16 @@ m = uniform(0, 0.1, 1)
 //Relax and Energy
 //----------------------------------------------------------
 
-RunWhile(maxTorque > 1e-4)
-TableAdd(E_anis)
-TableAdd(E_demag)
+saveas(m, "FerroZ")
+
+TableAdd(m_full)
+TableAdd(B_ext)
 TableAdd(E_exch)
+TableAdd(E_demag)
+TableAdd(E_zeeman)
 TableAdd(E_total)
-saveas(m, "relax")
-tablesave()
+
+runwhile(maxtorque > 1e-4) 
+Tablesave()
+Save(m)
+

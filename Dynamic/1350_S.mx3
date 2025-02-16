@@ -68,7 +68,7 @@ anisU.setregion(3, vector(0,0,1))
 
 Alpha = 0.008
 
-m.loadfile("1350_S1.ovf")
+m.loadfile("S1350.ovf")
 
 TableAdd(m_full)
 TableAdd(B_ext)
